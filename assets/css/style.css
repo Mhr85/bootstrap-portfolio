@@ -1,0 +1,78 @@
+/*
+header-background:#fff;
+header-title-name-background: #4aaaa5;
+background-color: #eeeeee, #4aaaa5;
+button-hover: #BBFFFB;
+color: #777777;
+footer-color: #666666;
+border: #cccccc;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+
+
+/* HEADING */
+#heading {
+    background-color: #4aaaa5;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 2%;
+}
+
+.title {
+    margin: 0;
+    padding: 1% 15% 0 15%;
+}
+
+/* NAVBAR */
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-links {
+    font-family: 'Montserrat-light', sans-serif;
+    font-size: 1.2rem;
+    padding: 0;
+}
+
+/* MIDDLE CONTAINER */
+
+.full {
+    background-color: #888;
+    background-image: url("/assets/images/diagmonds-light.png");
+    border-top: 0.5px solid #777;
+    padding: 7% 15%;
+}
+
+.jumbotron {
+    background-color: #fff;
+    border-radius: 0;
+    color: #777;
+    font-family: 'Montserrat-light', sans-serif;
+}
+
+.jumbotron-heading {
+    color: #4aaaa5;
+    font-family: 'Montserrat-regular', sans-serif;
+    font-weight: regular;
+}
+
+.jumbotron img {
+    margin-right: 20px;;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #777;
+    border-top: 8px solid #4aaaa5;
+    color: #fff;
+    padding: 2%;
+    text-align: center;
+}

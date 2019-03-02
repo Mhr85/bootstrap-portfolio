@@ -25,7 +25,7 @@ font-family: 'Montserrat', sans-serif;
 
 .title {
     margin: 0;
-    padding: 1% 15% 0 15%;
+    padding: 1% 25% 0 25%;
 }
 
 /* NAVBAR */
@@ -42,10 +42,9 @@ font-family: 'Montserrat', sans-serif;
 /* MIDDLE CONTAINER */
 
 .full {
-    background-color: #888;
-    background-image: url("/assets/images/diagmonds-light.png");
+    background-color: #eee;
     border-top: 0.5px solid #777;
-    padding: 7% 15%;
+    padding: 7% 25%;
 }
 
 .jumbotron {
@@ -76,3 +75,17 @@ footer {
     padding: 2%;
     text-align: center;
 }
+
+
+/* PORTFOLIO */
+
+
+.card {
+    margin: 0 20px 20px 0;
+  }
+
+
+/* PORTFOLIO & CONTACT  */
+  .btn-color {
+    background-color: #00adb5;
+  }

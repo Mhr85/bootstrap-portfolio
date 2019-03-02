@@ -12,8 +12,7 @@
     <!-- BOOTSTRAP CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- CSS -->
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/style3.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <!-- BOOTSTRAP JS -->
@@ -47,21 +46,29 @@
 </div>
 <!-- END OF TOP CONTAINER  -->
 <!-- BODY -->
-    <div class="full">
-        <div class="container">
-            <section id="title-about-me">
-                <h1>Contact</h1>
-                <hr>
-            </section>
-            <section id="about-me">
-                <p>Name</p><br>
-                <input type="text" placeholder="John Smith">
-                <p>Email</p><br>
-                <input type="text" placeholder="example@gmail.com">
-                <p>Message</p><br>
-                <textarea name="text" id="txt-area" cols="30" rows="10"></textarea>
-                <button class="button" style="vertical-align:middle"><span>Submit </span></button>
-            </section>
+
+<div class="container-fluid full">
+        <div class="jumbotron">
+            <h1 class="jumbotron-heading">Contact</h1>
+            <hr class="my-4">
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputName1">Name</label>
+                  <input type="text" class="form-control" id="exampleInputName1" placeholder="Enter your name">
+                </div>
+
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+
+               <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success btn-color">Submit</button>
+            </form>
         </div>
     </div>
 <!-- FOOTER -->
